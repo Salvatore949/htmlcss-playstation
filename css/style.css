@@ -1,0 +1,123 @@
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+#sony{
+    background-color: #000000;
+    display: flex;
+    justify-content:flex-end ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#title{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.jumbo {
+    background-color: red;
+    height: 75vh;
+}
+
+#jumbo_text{
+    border: 3px solid black;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+button{
+    width: 130px;
+}
+
+/*Ecco la playstation5*/
+
+#second_container{
+    border: 1px solid red;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#second_container img{
+    width: 80%;
+}
+/*
+#second_{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 27%;
+    margin: 0 auto;
+    margin-right: 0;
+}
+*/
+#second_{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#third_container .row{
+    justify-content: center;
+    
+}
+#third_container .row div{
+    width: 150px;
+}
+
+col-xs-offset-11 col-xs-1 col-sm-offset-10 col-sm-2
+
+
+
+#second_{
+    background-color: blue;
+    height:100px;
+    
+
+}
+
+
+#third_{
+    background-color: rgb(255, 0, 13);
+    height:100px;
+}
