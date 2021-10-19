@@ -12,7 +12,7 @@ body{
 
 #jumbotron {
     padding: 0;
-    height:400px;
+    height:500px;
     position: relative;
     color: white;
 }
@@ -21,19 +21,27 @@ body{
     height: 100%;
 }
 #jumbotron .overlay {
-    width: 40%;
+    width: 60%;
     position: absolute;
     bottom: 40px;
     left: 40px;
 }
 #jumbotron .overlay img {
-   width: 150px;
+   width: 250px;
    height: auto;
+   padding: 20px 0;
 }
+
+#jumbotron .overlay h3{
+    padding: 20px 0;
+    font-size: 40px;
+}
+
 #jumbotron-cta {
     background-color: #cd3d0f;
     color: white;
     border-radius: 25px;
+    width:120px;
 }
 
 #jumbotron-mini {
@@ -44,81 +52,92 @@ body{
     border-radius: 10px;
 }
 
-/* Ecco la ps5*/
+/*Crush_Howks*/
+
+#crush_howks{
+    background-color:#1f1f1f;
+    color: #ffffff;
+    padding:30px;
+}
+
+#crush_howks h2{
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+#crush_howks p{
+    font-size:20px;
+    padding: 20px;
+}
+
+#crush_howks img{
+    border-radius:25px;
+}
+
+/*Titolo_1*/
 
 #title_1{
     text-align: center;
     padding-top: 50px;
-    padding-bottom:20px;
-}
-
-#console-ps5{
-    border: 2px solid blue;
 }
 
 #title_1 h4{
-  line-height: 2px;
-  font-size: 30px;
-  padding-bottom:20px;
-}
-
-#title_1 p:first-child{
-    color: #107bd1;
+    font-size:35px;
 }
 
 #title_1 p:last-child{
-    color: #757575;
-    font-size: 20px;
+    font-size:20px;
+    padding:15px 0;
+    color: grey;
 }
 
-#console-ps5 img{
-    width:80%
+/*Console PS5*/
+
+#console_pgh{
+    margin-left: 50px;
 }
 
-#console-ps5 p{
-    padding:10px 0;
+#console_pgh h4{
+    font-size:50px;
+}
+
+#console_pgh p{
+    font-size:25px;
+    padding:15px 0;
+    color: grey;
 }
 
 #console-cta{
-    background-color: #2d64e6;
-    border-radius: 25px;
-    border: none;
+    background-color:#2d64e6;
     color: white;
+    border:none;
+    padding:3px 15px;
+    border-radius: 25px;
 }
 
-#console-ps5_text{
-    display: flex;
+/*items-ps5*/
+
+.opacity{
+    opacity: 0.4;
 }
 
-#console-ps5_text div{
-    width: 100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 200px;
+.item img{
+    width: 150px;
 }
 
-#console-ps5_text div h4{
-    font-size: 40px;
+.first{
+    border-bottom:2px solid #2989d6;
+    padding-bottom: 10%;
 }
 
-#console-ps5_text div p{
-    color: #757575;
-    font-size:16px;
+#first-item p{
+    color:black;
 }
 
-#items-ps5{
-    padding-left:100px;
+.item p{
+    color:grey
 }
 
-#items-ps5 img{
-    width:50%;
-}
-
-#first_item{
-    border-bottom: 1px solid #2d64e6;
-    width:50%;
-}
 
 /*it takes two*/
 
@@ -150,8 +169,7 @@ body{
     border-radius: 25px;
 }
 
-/*crash_hawks*/
-
+/*two_option_*/
 #takes_two_options{
     color:white;
     background-color:#1f1f1f;
@@ -160,11 +178,10 @@ body{
 #takes_two_options p{
     margin-left:65px;    
     font-size: 30px;
-
 }
  
 #two_option_text{
-    padding: 40px 0 60px 70px;
+    padding: 80px 0 20px;
 }
 
 #crash_hawks img{
@@ -184,7 +201,6 @@ body{
     font-size:25px;
 }
 
-
 #three_options img{
     width:80%;
 }
@@ -203,19 +219,134 @@ body{
     background-color:#2d64e6;
     border-radius:25px;
     border: none;
+    padding:8px 18px;
 }
 
+/*Option_container*/
 
+#text_play{
+    text-align: center;
+    padding:40px;
+}
 
+#text_play h2{
+    font-size: 50px;
+}
 
+#text_play p{
+    color:#747474;
+    font-size:20px;
+}
 
+/*Grey area*/
 
+#grey{
+    background-color:#bebcbb;
+    margin-top: 100px;
+}
 
+.text_grey{
+    margin-left:3%;
+    margin-top: 4%;
+}
 
+#grey p{
+    padding:15px 0;
+}
 
+#grey button{
+    background-color:#d9dadc;
+    color:#4a78e4;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    width: 250px;
+    margin-bottom:40px;
+    
+}
 
+/*free to play*/
 
+#free img{
+    width:90%;
+}
 
+/*blue area*/
+#blue{
+    background-color:#161c3b;
+    margin-top: 100px;
+}
+
+.text_blue{
+        margin-left:3%;
+        margin-top: 4%;
+}
+
+#blue p{
+    padding:15px 0;
+    color: #ffffff;
+}
+
+#blue button{
+    background-color:#f5f5f5;
+    color:#353535;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    margin-bottom:40px;
+    width: 250px;
+}
+
+/*social area*/
+
+#cap_text{
+    padding:50px;
+    text-align: center;
+}
+
+.image_social{
+    width:100%;
+}
+
+#social_icons{
+    margin-bottom:50px;
+}
+
+/*footer*/
+
+footer{
+    background-color:#00439c;
+}
+
+.ps_white_log{
+    width:150px;
+    margin:20px 0 0 20px ;
+}
+
+.ps_globe{
+    width:20px;
+    margin-left: 20px;
+}
+
+.ps_sony_log{
+    width:150px;
+    margin:40px 0 40px 20px;
+}
+
+#footer span{
+    color:white;
+    font-size: 10px;
+}
+
+footer p{
+    font-size:13px;
+    color:white;
+}
+
+.footer_text{
+    margin-top:50px;
+    margin-left: 60px;
+}
 
 
 
